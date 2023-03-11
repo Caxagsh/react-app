@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 import { Timer } from './components/Timer';
-
+import { InputTest } from './components/InputTest';
 function App() {
   return  <div>
     <div>
-  <Timer cityCountry="London"/>
-  <Timer cityCountry="Japan"/>
+  
+  <InputTest/>
+  <InputTest/>
   </div>
   <div>
-  <Timer cityCountry="Israel"/>
-  <Timer cityCountry="Toronto"/>
+  <InputTest/>
+  <InputTest/>
   </div>
   </div>
 }
